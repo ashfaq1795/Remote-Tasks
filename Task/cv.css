@@ -1,0 +1,59 @@
+.container {
+  width: 80%;
+  margin: 100px auto;
+  padding: 20px 50px;
+  border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.info-section a {
+  text-decoration: none;
+  color: black;
+}
+.name {
+  margin-bottom: 5px;
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 17px;
+  row-gap: 8px;
+  margin-top: 8px;
+}
+.links-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.section-margin {
+  margin-top: 20px;
+}
+.section-margin .heading {
+  border-bottom: 2px solid black;
+}
+.section-margin .company {
+  display: flex;
+  justify-content: space-between;
+}
+.company p {
+  margin-bottom: 0px !important;
+}
+.professional-section ul {
+  margin-top: 5px;
+}
+.section-margin .skills-content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px 95px;
+}
+.skills-content p:first-child {
+  margin-bottom: 5px !important;
+}
+.skills-content p:not(:first-child) {
+  margin: 0px;
+}
+@media (max-width: 660px) {
+  .section-margin .skills-content {
+    grid-template-columns: auto;
+  }
+}
